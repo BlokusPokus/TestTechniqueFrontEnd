@@ -1,0 +1,21 @@
+/* For mobile */
+.large-button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* For tablets  */
+@media (min-width: 768px) {
+  .large-button {
+    font-size: 18px;
+    padding: 11px 22px;
+  }
+}
+
+/* For desktops  */
+@media (min-width: 992px) {
+  .large-button {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+}

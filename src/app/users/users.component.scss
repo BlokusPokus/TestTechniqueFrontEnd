@@ -1,0 +1,70 @@
+
+.large-button {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.mat-elevation-z8 {
+  overflow-x: auto;
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+th.mat-header-cell, td.mat-cell {
+  padding: 20px;
+}
+
+/* For small screens */
+@media (max-width: 480px) {
+  .large-button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .mat-elevation-z8 {
+    margin: 5px auto;
+    max-width: 100%;
+  }
+
+  th.mat-header-cell, td.mat-cell {
+    padding: 5px;
+  }
+}
+
+/* For medium screens */
+@media (min-width: 481px) and (max-width: 768px) {
+  .large-button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .mat-elevation-z8 {
+    margin: 10px auto;
+    max-width: 95%;
+  }
+
+  th.mat-header-cell, td.mat-cell {
+    padding: 10px;
+  }
+}
+
+/* For large screens */
+@media (min-width: 769px) {
+  .large-button {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+
+}
+
+
